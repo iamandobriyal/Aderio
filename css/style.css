@@ -141,14 +141,17 @@ menu-item:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 400px;
     margin-bottom: 100px;
 }
 #how .container{
     display: flex;
     margin-top: 30px;
     width: fit-content;
+    height: fit-content;
     position: relative;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: center;
 }
 #how .container .card{
     display: flex;
@@ -371,5 +374,13 @@ footer{
         align-items: center;
         text-align: center;
     }
-
+    #how .container{
+        column-gap: 30px;
+    }
+    #how .container .card1,.card3{
+        margin-top:  0px;
+    } 
+    #how .container .ar1,.ar2,.ar3{
+        display: none;
+    }
 }
