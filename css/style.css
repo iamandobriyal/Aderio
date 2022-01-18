@@ -363,3 +363,13 @@ footer{
     height: 50px;
     border-top: 1px solid white;
 }
+
+
+@media screen and (max-width:1000px) {
+
+    .hero .container .left{
+        align-items: center;
+        text-align: center;
+    }
+
+}
