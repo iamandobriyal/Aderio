@@ -245,6 +245,9 @@ menu-item:hover{
     display: flex;
     align-items: center;
     column-gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 30px;
 }
 #clients .slide2{
     display: none;
