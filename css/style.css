@@ -222,6 +222,7 @@ menu-item:hover{
     height: 250px;
     font-size: calc(15px);
     color: black;
+    transition: all 200ms linear;
 }
 #services .container .card:hover{
     color: white;
@@ -235,7 +236,6 @@ menu-item:hover{
     text-align: center;
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
     margin-bottom: 100px;
 }
 #clients .slider-main{
@@ -243,6 +243,7 @@ menu-item:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
 }
 #clients .slide{
     display: flex;
@@ -281,6 +282,7 @@ menu-item:hover{
     column-gap: 10px;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
 }
 #clients .pagination .dot{
     height: 15px;
