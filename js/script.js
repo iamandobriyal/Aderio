@@ -1,5 +1,10 @@
 let serviceCard = document.querySelectorAll('.servicecard');
 let icon = document.querySelectorAll('i');
+let h1 = document.querySelectorAll('h1');
+for(let i=0; i<h1.length; i++)
+{
+    h1[i].style.color = "white";
+}
 console.log(serviceCard);
 for(let i=0; i<serviceCard.length; i++)
 {
