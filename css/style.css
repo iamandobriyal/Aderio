@@ -383,4 +383,18 @@ footer{
     #how .container .ar1,.ar2,.ar3{
         display: none;
     }
+    .menu{
+        display: none;
+    }
+    #faq{
+        text-align: center;
+    }
+    #faq .container .card{
+        width: 300px;
+        font-size: 70%;
+        text-align: start;
+    }
+    #newsletter form input{
+        width: 300px;
+    }
 }
