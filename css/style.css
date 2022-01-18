@@ -397,4 +397,7 @@ footer{
     #newsletter form input{
         width: 300px;
     }
+    #services .container{
+        padding: 0;
+    }
 }
