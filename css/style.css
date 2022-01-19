@@ -79,6 +79,10 @@ menu-item:hover{
     cursor:pointer;
     padding: 10px;
     background-color: green;
+    transition: all 300ms ease-in;
+}
+.left button:hover{
+    transform: scale(1.10);
 }
 .right{
     width: 400px;
