@@ -342,6 +342,7 @@ menu-item:hover{
 #newsletter form{
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-top: 20px;
 }
 #newsletter form input{
@@ -426,8 +427,11 @@ footer{
     #newsletter{
         text-align: center;
     }
+    #newsletter form{
+        width: 100%;
+    }
     #newsletter form input{
-        width: 200px;
+        width: 60%;
     }
     #services .container{
         padding: 0;
