@@ -12,7 +12,7 @@
     --primary-color:#2A3249;
     --secondary-color:#C1C8DA;
     --headings:white;
-    --links:#5372E1;
+    --links:#4d5bed;
     --buttons:#6CAAE3;
 }
 :focus{
@@ -406,8 +406,13 @@ footer{
     #faq{
         text-align: center;
     }
+    #faq .container{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
     #faq .container .card{
-        width: 300px;
+        width: 80%;
         font-size: 70%;
         text-align: start;
     }

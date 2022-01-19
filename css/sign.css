@@ -51,13 +51,10 @@ menu-item:hover{
 .hero{
     width: 100%;
     justify-content: center;
-    margin-top: 120px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    align-items: center;
-    column-gap: 100px;
-    row-gap: 50px;
+    height: 88vh;
 }
 hr{
     width: 100%;
@@ -170,11 +167,18 @@ footer{
     height: 50px;
     border-top: 1px solid white;
     width: 100%;
-    margin-top: 150px;
     color: white;
+    position: absolute;
+    bottom: 0;
 }
 @media screen and (max-width:1000px) {
-    footer{
+    .menu{
+        display: none;
+    }
+    .hero{
         margin-top: 20px;
+    }
+    footer{
+        
     }
 }
