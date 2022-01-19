@@ -2,7 +2,23 @@ let serviceCard = document.querySelectorAll('.servicecard');
 let icon = document.querySelectorAll('i');
 let h1 = document.querySelectorAll('h1');
 let logo = document.querySelector('.logo');
+let menutbtn = document.querySelector('.menubtn');
+let mobileMenu = document.querySelector('.menu-mobile');
 
+mobileMenu.style.display = "none";
+let m = 0;
+menutbtn.addEventListener('click',function(){
+    if(m==0)
+    {
+        mobileMenu.style.display = "flex";
+        m++;
+    }
+    else{
+        mobileMenu.style.display = "none";
+        m--;
+    }
+    
+})
 
 function start()
 {
@@ -68,3 +84,5 @@ for(let i=0; i<faqCard.length; i++)
         faqopen[i].style.display = "block";
     })
 }
+
+AOS.init();
