@@ -159,26 +159,11 @@ p{
     height:30px;
     cursor: pointer;
 }
-
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    border-top: 1px solid white;
-    width: 100%;
-    color: white;
-    position: absolute;
-    bottom: 0;
-}
 @media screen and (max-width:1000px) {
     .menu{
         display: none;
     }
     .hero{
         margin-top: 20px;
-    }
-    footer{
-        
     }
 }
