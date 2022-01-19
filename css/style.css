@@ -32,6 +32,7 @@ body{
     font-size: 30px;
     font-weight: 600;
     color: var(--headings);
+    cursor: pointer;
 }
 .menu{
     display: flex;

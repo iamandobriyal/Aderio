@@ -1,6 +1,10 @@
 let serviceCard = document.querySelectorAll('.servicecard');
 let icon = document.querySelectorAll('i');
 let h1 = document.querySelectorAll('h1');
+let logo = document.querySelector('.logo');
+logo.addEventListener('click',function(){
+    location.href = "index.html";
+})
 for(let i=0; i<h1.length; i++)
 {
     h1[i].style.color = "white";
