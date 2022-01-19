@@ -385,10 +385,13 @@ footer{
         row-gap: 10px;
         margin-bottom: 30px;
     }
-
+    .hero .container{
+        row-gap: 20px;
+    }
     .hero .container .left{
         align-items: center;
         text-align: center;
+        padding: 0px 50px 0px 50px;
     }
     #why,#how,#clients,#services{
         margin-bottom: 30px;

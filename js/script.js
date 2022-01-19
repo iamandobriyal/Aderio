@@ -2,6 +2,13 @@ let serviceCard = document.querySelectorAll('.servicecard');
 let icon = document.querySelectorAll('i');
 let h1 = document.querySelectorAll('h1');
 let logo = document.querySelector('.logo');
+
+
+function start()
+{
+    location.href = 'pages/sign.html';
+}
+
 logo.addEventListener('click',function(){
     location.href = "index.html";
 })
