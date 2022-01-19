@@ -164,6 +164,7 @@ p{
         display: none;
     }
     .hero{
-        margin-top: 10px;
+        height: 0;
+        margin-top: 20px;
     }
 }
