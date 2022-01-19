@@ -392,6 +392,9 @@ footer{
     #why,#how,#clients,#services{
         margin-bottom: 30px;
     }
+    #why .container .card{
+        padding: 15px;
+    }
     #how .container{
         column-gap: 30px;
     }
