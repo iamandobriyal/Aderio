@@ -372,6 +372,9 @@ footer{
 
 @media screen and (max-width:1000px) {
 
+    .left h1{
+        font-size: 30px;
+    }
     body{
         font-size: 90%;
     }
@@ -380,6 +383,7 @@ footer{
         row-gap: 10px;
         margin-bottom: 30px;
     }
+
     .hero .container .left{
         align-items: center;
         text-align: center;
