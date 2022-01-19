@@ -390,7 +390,7 @@ footer{
         padding: 0px 30px 0px 30px;
     }
     .hero{
-        margin-top: 30px;
+        margin-top: 10px;
         row-gap: 10px;
         margin-bottom: 30px;
     }
@@ -427,11 +427,10 @@ footer{
     }
     .menu-mobile{
         display: flex;
-        height: 150px;
         flex-direction:column;
         padding-left: 30px;
+        height: 150px;
         row-gap: 10px;
-        padding-bottom: 10px;
         animation: menu 1s ease-in-out;
         transition: all 1s ease-in-out;
         overflow: hidden;
