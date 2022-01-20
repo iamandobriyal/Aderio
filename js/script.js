@@ -4,7 +4,10 @@ let h1 = document.querySelectorAll('h1');
 let logo = document.querySelector('.logo');
 let menutbtn = document.querySelector('.menubtn');
 let mobileMenu = document.querySelector('.menu-mobile');
-
+let menu = document.querySelectorAll('menu-item');
+menu[4].addEventListener('click',function(){
+    location.href = "pages/dashboard.html";
+})
 mobileMenu.style.display = "none";
 let m = 0;
 menutbtn.addEventListener('click',function(){
