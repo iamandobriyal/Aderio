@@ -88,3 +88,10 @@ for(let i=0; i<(menu.length-5); i++)
         location.href = links[i];
     })
 }
+
+for(let i=5; i<menu.length; i++)
+{
+    menu[i].addEventListener('click',function(){
+        location.href = links[i-5];
+    })
+}
