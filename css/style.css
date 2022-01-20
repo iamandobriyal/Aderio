@@ -286,7 +286,23 @@ menu-item:hover{
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     border-radius: 12px;
+    animation: slideIn 1.5s linear;
 }
+
+
+
+
+@keyframes slideIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
 #clients .slide .card .info{
     display: flex;
     align-items: center;
