@@ -514,3 +514,29 @@ footer{
         height: 200px;
     }
 }
+
+
+
+
+
+
+
+@media (resolution: 1dppx){
+
+
+    .header{
+        justify-content: space-evenly;
+    }
+    .menu{
+        width: 30%;
+    }
+    #services .container{
+        column-gap: 30px;
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+    #services .container .card{
+        width: 350px;
+        height: 250px;
+    }
+}
