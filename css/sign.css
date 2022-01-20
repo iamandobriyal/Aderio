@@ -15,6 +15,9 @@
     user-select: none;
     -webkit-tap-highlight-color: transparent;
 }
+::-webkit-scrollbar{
+    display: none;
+}
 body{
     display: flex;
     flex-direction: column;
@@ -57,6 +60,7 @@ menu-item:hover{
     align-items: center;
     flex-wrap: wrap;
     height: 88vh;
+    margin-bottom: 30px;
 }
 hr{
     width: 100%;
@@ -74,6 +78,7 @@ hr{
     padding: 20px;
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 20px;
 }
 .card h1{
     width: 100%;
@@ -160,11 +165,9 @@ p{
     cursor: pointer;
 }
 footer{
-    position: absolute;
     border-top: 1px solid silver;
     width: 100%;
     color: white;
-    bottom: 0;
     height: 80px;
     display: flex;
     align-items: center;
