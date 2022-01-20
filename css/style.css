@@ -396,8 +396,7 @@ footer{
 @media screen and (max-width:1000px) {
 
     .left h1{
-        font-size: 36px;
-        text-align: start;
+        font-size: 34px;
     }
     body{
         font-size: 90%;
