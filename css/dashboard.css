@@ -384,9 +384,10 @@ td{
     #order-table,#service-table{
         width: 300%;
     }
-.card{
+    .card{
     animation: load 300ms linear;
-}
+    padding: 20px 20px 50px 20px;
+    }
 
     @keyframes load {
         0%{
