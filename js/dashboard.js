@@ -4,16 +4,20 @@ let section = document.querySelectorAll('.card');
 let menubtn = document.querySelector('.menubtn');
 let menutab = document.querySelector('.menu-tab');
 let m = 0;
+
+
 let devicewidth = (window.innerWidth > 0)?window.innerWidth:screen.width;
-console.log(devicewidth);
+
+
+
 menubtn.addEventListener('click',function(){
     if(m==0)
     {
-        menutab.style.display = "flex";
+        menutab.style.height = "350px";
         m++;
     }
     else{
-        menutab.style.display = "none";
+        menutab.style.height = "0";
         m--;
     }
     
@@ -42,7 +46,7 @@ for(let i=0; i<menu.length; i++)
             menu[i].style.background = "var(--links)";
             menu[i].style.color = "white";
             section[i].style.display = "flex";
-            menutab.style.display  = "none";
+            menutab.style.height = "0";
             for(let j=0; j<menu.length; j++)
             {
                 if(j!=i)

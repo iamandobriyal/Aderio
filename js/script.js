@@ -6,16 +6,16 @@ let menutbtn = document.querySelector('.menubtn');
 let mobileMenu = document.querySelector('.menu-mobile');
 let menu = document.querySelectorAll('menu-item');
 
-mobileMenu.style.display = "none";
+
 let m = 0;
 menutbtn.addEventListener('click',function(){
     if(m==0)
     {
-        mobileMenu.style.display = "flex";
+        mobileMenu.style.height = "160px";
         m++;
     }
     else{
-        mobileMenu.style.display = "none";
+        mobileMenu.style.height = "0px";
         m--;
     }
     
@@ -95,3 +95,8 @@ for(let i=5; i<menu.length; i++)
         location.href = links[i-5];
     })
 }
+
+
+
+
+
