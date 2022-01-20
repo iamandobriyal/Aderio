@@ -324,6 +324,7 @@ td{
     }
     form{
         width: 100%;
+        margin-bottom: 50px;
     }
     .menubtn{
         display: flex;
@@ -351,7 +352,7 @@ td{
         width: 100%;
     }
     #order-table,#service-table{
-        width: 200%;
+        width: 300%;
     }
 .card{
     animation: load 300ms linear;
