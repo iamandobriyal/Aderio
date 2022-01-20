@@ -48,10 +48,10 @@
             <form action="">
                 <div class="set">
                 <label for="category">Category</label>
-                <select name="category" id="category">
-                    <option id="cat">Aderio Best Services</option>
-                    <option id="cat">Instagram Likes</option>
-                    <option id="cat">Instagram Views</option>
+                <select name="category" id="category" onchange="catnew()">
+                    <option id="cat" value="0">Aderio Best Services</option>
+                    <option id="cat" value="1">Instagram Likes</option>
+                    <option id="cat" value="2">Instagram Views</option>
                 </select>
             </div>
             <div class="set">
@@ -62,12 +62,12 @@
                     <option>Instagram Views</option>
                 </select>
                 <select name="category" id="service">
-                    <option>Aderio Best Services</option>
+                    <option>Instagram Likes</option>
                     <option>Instagram Likes</option>
                     <option>Instagram Views</option>
                 </select>
                 <select name="category" id="service">
-                    <option>Aderio Best Services</option>
+                    <option>Instagram Views</option>
                     <option>Instagram Likes</option>
                     <option>Instagram Views</option>
                 </select>

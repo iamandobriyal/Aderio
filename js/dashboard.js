@@ -78,3 +78,36 @@ for(let i=0; i<menu.length; i++)
 
 
 
+// service
+
+let service = document.querySelectorAll('#service');
+let select = document.querySelector('#category');
+
+let cat = document.querySelectorAll('#cat');
+
+let catval = [];
+
+for(let i=0; i<cat.length; i++)
+{
+    catval[i] = cat[i].value;
+}
+
+
+
+for(let i=1; i<service.length; i++)
+{
+    service[i].style.display = "none";
+}
+
+function catnew()
+{
+    let selectVal = parseInt(select.value);
+    service[selectVal].style.display = "flex";
+    for(let i=0; i<service.length; i++)
+    {
+        if(i!=selectVal)
+        {
+            service[i].style.display = "none";
+        }
+    }
+}
