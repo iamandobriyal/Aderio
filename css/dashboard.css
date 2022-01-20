@@ -141,6 +141,7 @@ menu-item:hover{
     display: flex;
     flex-direction: column;
     padding-left: 20px;
+    padding-right: 20px;
     row-gap: 50px;
     padding-top: 25px;
     animation: load 500ms linear;
