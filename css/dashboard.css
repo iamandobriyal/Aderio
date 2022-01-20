@@ -146,7 +146,22 @@ menu-item:hover{
     padding-left: 20px;
     row-gap: 50px;
     padding-top: 25px;
+    animation: load 500ms linear;
 }
+
+
+@keyframes load {
+    0%{
+        transform: translateX(-1000px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+
+
+
 .new-order{
     display: none;
 }
@@ -338,4 +353,17 @@ td{
     #order-table,#service-table{
         width: 200%;
     }
+.card{
+    animation: load 300ms linear;
+}
+
+    @keyframes load {
+        0%{
+            transform: translateY(-700px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
+    }
+
 }

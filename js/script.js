@@ -5,9 +5,7 @@ let logo = document.querySelector('.logo');
 let menutbtn = document.querySelector('.menubtn');
 let mobileMenu = document.querySelector('.menu-mobile');
 let menu = document.querySelectorAll('menu-item');
-menu[4].addEventListener('click',function(){
-    location.href = "pages/dashboard.html";
-})
+
 mobileMenu.style.display = "none";
 let m = 0;
 menutbtn.addEventListener('click',function(){
@@ -71,31 +69,22 @@ for(let i=0; i<slide.length; i++)
 }
 //   faq
 
-let faqCard = document.querySelectorAll('.faq');
-let on = document.querySelectorAll('.add');
-let off = document.querySelectorAll('.sub');
-
-on[0].addEventListener('click',function(){
-    console.log('hello');
-})
-
-
-for(let i=0; i<faqCard.length; i++)
-{
-    on[i].addEventListener('click',function()
-    {
-        faqCard[i].style.height = "fit-content";
-        faqCard[i].style.rowGap = "5px";
-        on[i].style.display = "none";
-        off[i].style.display = "flex";
-    })
-    off[i].addEventListener('click',function()
-    {
-        faqCard[i].style.height = "57px";
-        faqCard[i].style.rowGap = "20px";
-        on[i].style.display = "flex";
-        off[i].style.display = "none";
-    })
-}
 
 AOS.init();
+
+
+
+
+
+
+// menu-pc 
+
+
+let links = ["index.html","pages/about.html","#services","#contact","pages/dashboard.html"];
+
+for(let i=0; i<(menu.length-5); i++)
+{
+    menu[i].addEventListener('click',function(){
+        location.href = links[i];
+    })
+}

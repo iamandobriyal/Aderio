@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
     user-select: none;
     -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
 }
 ::-webkit-scrollbar{
     display: none;
@@ -333,11 +334,7 @@ menu-item:hover{
     padding: 20px;
     border-radius: 12px;
     overflow: hidden;
-    row-gap: 20px;
-}
-
-.faq{
-    height: 58px;
+    row-gap: 10px;
 }
 
 button{
