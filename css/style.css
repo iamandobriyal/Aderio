@@ -398,6 +398,7 @@ button{
     background-color: var(--links);
     color: white;
     cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
 }
 footer{
     display: flex;
@@ -473,6 +474,9 @@ footer{
     }
     #faq{
         margin-bottom: 40px;
+    }
+    #faq p{
+        text-align: center;
     }
     #faq .container{
         width: 100%;
