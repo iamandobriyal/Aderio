@@ -72,6 +72,9 @@ body{
     color: var(--headings);
     cursor: pointer;
 }
+.menubtn{
+    display: none;
+}
 .hero{
     display: flex;
     height: 91%;
@@ -109,6 +112,9 @@ menu-item{
     cursor: pointer;
     margin-left: 30px;
     padding-left: 20px;
+}
+.mob{
+    display: none;
 }
 menu-item:hover{
     background-color: var(--links) !important;
@@ -254,4 +260,80 @@ tr{
 }
 td{
     text-align: center;
+}
+
+@media screen and (max-width:1000px) {
+    
+
+    .header .info{
+        display: none;
+    }
+
+    .menu-tab{
+        display: none;
+        width: 100%;
+        row-gap: 20px;
+        animation: menu 300ms ease-in-out;
+        overflow: hidden;
+        padding-right: 0;
+        
+    }
+    @keyframes menu {
+        0% {
+           height: 10px;
+        }
+        100% {
+        }
+     } 
+     .menu{
+         padding-top: 0;
+         padding-left: 30px;
+         padding-right: 30px;
+         width: 100%;
+     }
+     .header{
+         height: 80px;
+         align-items: center;
+         padding: 10px 30px 0px 30px;
+     }
+    .hero{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .hero .right-tab{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+        padding: 20px;
+    }
+    
+    form{
+        width: 100%;
+    }
+    table{
+        width: 100%;
+    }
+    .menubtn{
+        display: flex;
+        height: 20px;
+        cursor: pointer;
+    }
+    .info{
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .details{
+        align-items: center;
+        column-gap: 5px;
+    }
+    .mob{
+        display: flex;
+    }
+    .logout{
+        margin-right: 30px;
+    }
 }
