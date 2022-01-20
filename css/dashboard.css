@@ -256,7 +256,6 @@ table{
     color: black;
     width: 40%;
     background-color: white;
-    border-radius: 12px;
     border: none;
     border-collapse: collapse;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
@@ -279,9 +278,46 @@ tr{
     border-top: 1px solid var(--background);
     color: var(--secondary-color);
 }
+
 td{
     text-align: center;
 }
+
+.tickets form{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.fund form{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:1000px) {
     
@@ -322,9 +358,9 @@ td{
         flex-direction: column;
         height: fit-content;
     }
+    
     form{
         width: 100%;
-        margin-bottom: 50px;
     }
     .menubtn{
         display: flex;
