@@ -183,4 +183,10 @@ footer{
     .card{
         margin-bottom: 20px;
     }
+    #signUp{
+        width: 350px;
+    }
+    .google{
+        font-size: 12px;
+    }
 }
