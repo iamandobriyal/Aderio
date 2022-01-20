@@ -185,6 +185,7 @@ footer{
     }
     #signUp{
         width: 350px;
+        margin-bottom: 20px;
     }
     .google{
         font-size: 12px;
