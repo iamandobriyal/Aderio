@@ -195,3 +195,17 @@ footer{
         font-size: 12px;
     }
 }
+
+
+
+
+@media (resolution: 1dppx){
+    .hero{
+        margin-bottom: 0px;
+        height: 85vh;
+    }
+    .card{
+        margin-top: 0px;
+        width: 400px;
+    }
+}
