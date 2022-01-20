@@ -143,6 +143,8 @@ menu-item:hover{
     background-color:var(--headings);
     color: var(--primary-color);
     padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 12px;
 }
 #why .container .card img{
     height: 70px;
@@ -235,6 +237,8 @@ menu-item:hover{
     font-size: calc(15px);
     color: black;
     transition: all 200ms linear;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 12px;
 }
 #services .container .card:hover{
     color: white;
@@ -279,6 +283,8 @@ menu-item:hover{
     background-color: white;
     color: black;
     padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 12px;
 }
 #clients .slide .card .info{
     display: flex;
@@ -321,14 +327,21 @@ menu-item:hover{
 #faq .container .card{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 700px;
     background-color: white;
     color: black;
     padding: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    row-gap: 20px;
 }
-#faq .container .card des{
-    display: none;
+
+.faq{
+    height: 58px;
+}
+
+button{
+    border-radius: 12px;
 }
 #faq .container .card i{
     color: black;

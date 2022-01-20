@@ -69,22 +69,32 @@ for(let i=0; i<slide.length; i++)
         }
     })
 }
+//   faq
 
 let faqCard = document.querySelectorAll('.faq');
-let des = document.querySelectorAll('des');
-let faqopen = document.querySelectorAll('.add');
-let faqoff = document.querySelectorAll('.sub');
+let on = document.querySelectorAll('.add');
+let off = document.querySelectorAll('.sub');
+
+on[0].addEventListener('click',function(){
+    console.log('hello');
+})
+
+
 for(let i=0; i<faqCard.length; i++)
 {
-    faqopen[i].addEventListener('click',function(){
-        des[i].style.display = "block";
-        faqopen[i].style.display = "none";
-        faqoff[i].style.display = "block";
+    on[i].addEventListener('click',function()
+    {
+        faqCard[i].style.height = "fit-content";
+        faqCard[i].style.rowGap = "5px";
+        on[i].style.display = "none";
+        off[i].style.display = "flex";
     })
-    faqoff[i].addEventListener('click',function(){
-        des[i].style.display = "none";
-        faqoff[i].style.display = "none";
-        faqopen[i].style.display = "block";
+    off[i].addEventListener('click',function()
+    {
+        faqCard[i].style.height = "57px";
+        faqCard[i].style.rowGap = "20px";
+        on[i].style.display = "flex";
+        off[i].style.display = "none";
     })
 }
 
