@@ -330,7 +330,7 @@ td{
         display: flex;
         width: 100%;
         row-gap: 10px;
-        height: 0;
+        height: 0px;
         transition: all 500ms ease-in-out;
         overflow: hidden;
         padding-right: 0;
