@@ -68,7 +68,19 @@ for(let i=0; i<slide.length; i++)
     })
 }
 //   faq
+let fa = 0;
+let faqCard = document.querySelectorAll('.faq');
+let faqop = document.querySelectorAll('.faq-op');
+let on = document.querySelectorAll('.on');
+let off = document.querySelectorAll('.off');
+let desc = document.querySelectorAll('des');
+console.log(desc);
 
+
+
+
+
+// aos
 
 AOS.init();
 
@@ -95,6 +107,7 @@ for(let i=5; i<menu.length; i++)
         location.href = links[i-5];
     })
 }
+
 
 
 

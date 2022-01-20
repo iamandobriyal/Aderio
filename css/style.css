@@ -351,8 +351,11 @@ menu-item:hover{
     border-radius: 12px;
     overflow: hidden;
     row-gap: 10px;
+    justify-content: center;
 }
-
+des{
+    display: flex;
+}
 button{
     border-radius: 12px;
 }
@@ -361,13 +364,13 @@ button{
     cursor: pointer;
     font-size: 20px;
 }
-#faq .container .card .on{
+#faq .container .card .faq-op .off{
+    display: none;
+}
+#faq .container .card .faq-op{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-#faq .container .card .on .sub{
-    display: none;
 }
 #newsletter{
     display: flex;

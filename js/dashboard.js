@@ -13,7 +13,7 @@ let devicewidth = (window.innerWidth > 0)?window.innerWidth:screen.width;
 menubtn.addEventListener('click',function(){
     if(m==0)
     {
-        menutab.style.height = "350px";
+        menutab.style.height = "380px";
         m++;
     }
     else{
