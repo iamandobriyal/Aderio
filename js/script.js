@@ -33,7 +33,7 @@ for(let i=0; i<h1.length; i++)
 {
     h1[i].style.color = "white";
 }
-console.log(serviceCard);
+
 for(let i=0; i<serviceCard.length; i++)
 {
     serviceCard[i].addEventListener('mouseover',function()
@@ -67,14 +67,6 @@ for(let i=0; i<slide.length; i++)
         }
     })
 }
-//   faq
-let fa = 0;
-let faqCard = document.querySelectorAll('.faq');
-let faqop = document.querySelectorAll('.faq-op');
-let on = document.querySelectorAll('.on');
-let off = document.querySelectorAll('.off');
-let desc = document.querySelectorAll('des');
-console.log(desc);
 
 
 
