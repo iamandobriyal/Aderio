@@ -164,15 +164,6 @@ p{
     height:30px;
     cursor: pointer;
 }
-footer{
-    border-top: 1px solid silver;
-    width: 100%;
-    color: white;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 @media screen and (max-width:1000px) {
     .menu{
         display: none;

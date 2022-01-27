@@ -276,7 +276,9 @@ tr{
     border-top: 1px solid var(--background);
     color: var(--secondary-color);
 }
-
+.td-head{
+    font-size: 24px; color: var(--primary-color); background-color: var(--secondary-color);
+}
 td{
     text-align: center;
 }
